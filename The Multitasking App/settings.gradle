@@ -1,0 +1,2 @@
+rootProject.name='The Multitasker'
+include ':app'

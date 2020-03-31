@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/btncall"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/btncall" />
+
+    <ImageView
+        android:id="@+id/btncam"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+
+        android:clickable="true"
+        app:srcCompat="@drawable/btncam" />
+
+    <ImageView
+        android:id="@+id/btnmap"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/btnmap" />
+
+    <ImageView
+        android:id="@+id/btnlink"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/btnlink" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="5sp"
+            android:layout_weight="1"
+            android:background="#FFEB3B"
+            android:padding="10dp"
+            android:text="Codechef"
+            android:textColor="#FF5722"
+            android:textColorHighlight="#635A5A"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="0sp"
+            android:layout_weight="1"
+            android:background="#FFEB3B"
+            android:padding="10dp"
+            android:text="Codeforces"
+            android:textColor="#FF5722"
+            android:textColorHighlight="#635A5A"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnGit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="0sp"
+            android:layout_weight="1"
+            android:background="#FFEB3B"
+            android:padding="10dp"
+            android:text="GITHUB"
+            android:textColor="#FF5722"
+            android:textColorHighlight="#635A5A"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="0dp"
+            android:layout_weight="1"
+            android:background="#FFEB3B"
+            android:padding="10dp"
+            android:text="Stopstalk"
+            android:textColor="#FF5722"
+            android:textColorHighlight="#635A5A"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvAck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/i_hope_you_enjoyed_the_little_servies_we_could_provide_you_as_of_now_more_apps_coming_soon"
+        android:textColor="#610202"
+        android:textSize="15sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/tvCopyRIght"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:layout_marginTop="30dp"
+        android:text="@string/copyright_soumitri_chattopadhyay"
+        android:textColor="#3F51B5" />
+
+    <TextView
+        android:id="@+id/tvMyLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:linksClickable="false"
+        android:text="@string/link" />
+</LinearLayout>
