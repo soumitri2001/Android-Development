@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TempPredictor</string>
+    <string name="btn">CONTINUE</string>
+    <string name="hints">Number of chirps in 25 seconds</string>
+    <string name="btnHint">Calculate Temperature</string>
+    <string name="txt1">Did you know you can actually approximate the temperature outside by mere counting of the number of chirps a cricket makes? I am sure it is a</string>
+    <string name="txt2">fact you learnt right now! Now here is a task for you: Just count the number of chirps you hear in 25 seconds by your stopwatch, and then enter that number in the box below.</string>
+    <string name="reslt">Approximate temperature outside is</string>
+    <string name="inval">Invalid Input, Try Again</string>
+    <string name="cel">degrees Celsius</string>
+</resources>

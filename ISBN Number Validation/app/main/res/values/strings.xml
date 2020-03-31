@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ISBN_Validation</string>
+    <string name="enter_isbn_code">Enter ISBN Code</string>
+    <string name="validate">Validate</string>
+    <string name="valid_isbn">Valid ISBN Number</string>
+    <string name="inv_isbn">Invalid ISBN Number</string>
+</resources>
