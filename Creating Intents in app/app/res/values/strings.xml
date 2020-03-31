@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Intents Tester</string>
+    <string name="please_enter_your_name">Please enter your name</string>
+    <string name="acti2">Activity2</string>
+    <string name="acti3">Activity3</string>
+    <string name="data_from_activity_3_will_be_displayed_here">Data from Activity 3 will be displayed here</string>
+    <string name="please_enter_surname">please enter surname</string>
+    <string name="submit">SUBMIT</string>
+    <string name="welcome_to_activity_2">Welcome to Activity 2</string>
+    <string name="conc">, welcome to Activity 2</string>
+    <string name="errormsg">No Data Received</string>
+    <string name="return_to_home_page">Return to Home Page</string>
+</resources>
