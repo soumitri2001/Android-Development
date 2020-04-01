@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/refresh"
+        android:orderInCategory="102"
+        android:title="Refresh"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/download"
+        android:title="Go To Browser"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        android:icon="@drawable/download"
+        />
+
+    <item android:id="@+id/send"
+        android:title="Meet Developer"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:icon="@drawable/send"
+        />
+
+
+</menu>
