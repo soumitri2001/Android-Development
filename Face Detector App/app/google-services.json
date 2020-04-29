@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "415836907110",
+    "firebase_url": "https://smiledetector-aec95.firebaseio.com",
+    "project_id": "smiledetector-aec95",
+    "storage_bucket": "smiledetector-aec95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415836907110:android:e2b749296ee88d763e6fa7",
+        "android_client_info": {
+          "package_name": "com.appdevSoumitri.smiledetector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "415836907110-cicbg7mc25usmuqdv6ghuk0dh1kkp0dl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appdevSoumitri.smiledetector",
+            "certificate_hash": "bc3216acf22e6b7c88cafa5a6a40ed8f53935f2f"
+          }
+        },
+        {
+          "client_id": "415836907110-jm47mqabsqbcrk0c3dikeb1007j2d3qc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBU8bJh5TAI3Z0SCXi8q3e986hQJTYiiq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "415836907110-jm47mqabsqbcrk0c3dikeb1007j2d3qc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
