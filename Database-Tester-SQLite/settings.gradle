@@ -1,0 +1,2 @@
+rootProject.name='Database Tester SQLite'
+include ':app'
